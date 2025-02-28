@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Magazin</title>
+  <link rel="stylesheet" href="./css/tools-and-eq.css">
+  <link rel="stylesheet" href="./css/reset.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-container">
+        <img class="header-logo" src="./images/logo.png" alt="logo">
+        <ul class="header-list">
+          <li class="header-list-item"><a class="header-list-item-link" href="/index.html">Main Page</a></li>
+          <li class="header-list-item"><a class="header-list-item-link" href="/index.html#categories">Categories</a></li>
+          <li class="header-list-item"><a class="header-list-item-link" href="">All products</a></li>
+          <li class="header-list-item"><a class="header-list-item-link" href="">All sales</a></li>
+        </ul>
+        <img class="header-icon" src="./images/basket=empty.png" alt="empty-basket"> 
+      </div>
+      <hr>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="main-text">
+        Tools and equipment
+      </div class='main-eq'>
+        <ul class="main-list-nav">
+          <li class="main-list-item-price">
+            <p class="price-text">Price</p>
+            <form>
+            <textarea name="textarea" id="" placeholder="from"></textarea>
+            <textarea name="textarea" id="" placeholder="to"></textarea>
+            </form>
+          </li>
+            
+          <li class="main-list-item-price">
+            <p class="discount-text">Discounted items</p>
+            <form action="">
+              <input id="discount-checkbox" class="main-list-checkbox" type="checkbox">
+              <label for="discount-checkbox"></label>
+            </form>
+          </li>
+
+          <li class="main-list-item-price">
+            <div class="dropdown">
+              <select id="sort" name="sort">
+                  <option value="default">by default</option>
+                  <option value="newest">newest</option>
+                  <option value="price-high-low">price: high-low</option>
+                  <option value="price-low-high">price: low-high</option>
+              </select>
+          </div>
+          </li>
+        </ul>
+        <ul class="main-list-items">
+          <li class="main-list-items-item"> 
+            <img class="main-list-items-img" src="images-equipment/imgsc.png" alt="">
+            <p class="main-list-items-text">Secateurs</p>
+            <h3 class="main-list-items-price">$199</h3>
+          </li>
+          <li class="main-list-items-item">
+            <img class="main-list-items-img" src="images-equipment/imgcl.png" alt="">
+            <p class="main-list-items-text">Collection for berries</p>
+            <h3 class="main-list-items-price">$26</h3>
+          </li>
+          <li class="main-list-items-item">
+            <img class="main-list-items-img" src="images-equipment/imggl.png" alt="">
+            <p class="main-list-items-text">Gloves (black)</p>
+            <h3 class="main-list-items-price">$9</h3>
+          </li>
+          <li class="main-list-items-item">
+            <img class="main-list-items-img" src="images-equipment/imgkn.png" alt="">
+            <p class="main-list-items-text">Sickle-shaped hacksaw</p>
+            <h3 class="main-list-items-price">$155</h3>
+          </li>
+          <li class="main-list-items-item">
+            <img class="main-list-items-img" src="images-equipment/imgshovel.png" alt="">
+            <p class="main-list-items-text">Bayonet shovel</p>
+            <h3 class="main-list-items-price">$180</h3>
+          </li>
+          <li class="main-list-items-item">
+            <img class="main-list-items-img" src="images-equipment/imgpitchfork.png" alt="">
+            <p class="main-list-items-text">Garden pitchfork</p>
+            <h3 class="main-list-items-price">$179</h3>
+          </li>
+          <li class="main-list-items-item">
+            <img class="main-list-items-img" src="images-equipment/imgbarbel.png" alt="">
+            <p class="main-list-items-text">Barbell</p>
+            <h3 class="main-list-items-price">$12</h3>
+          </li>
+          <li class="main-list-items-item">
+            <img class="main-list-items-img" src="images-equipment/imgthermometer.png" alt="">
+            <p class="main-list-items-text">Souvenir thermometer</p>
+            <h3 class="main-list-items-price">$98</h3>
+          </li>
+        </ul>
+       </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <h1 class="footer-main-text">
+        Contact
+      </h1>
+      <ul class="footer-list">
+        <li class="footer-list-item">
+          <p class="footer-list-item-ptext">Phone</p>
+          <h3 class="footer-list-item-text">+380 68-614-2838</h3>
+        </li>
+
+        <li class="footer-list-item-nd">
+          <p class="footer-list-item-ptext">Socials</p>
+          <img src="/images/ic-instagram.png" alt="">
+          <img src="/images/ic-whatsapp.png" alt="">
+        </li>
+        <li class="footer-list-item">
+          <p class="footer-list-item-ptext">Address</p>
+          <h3 class="footer-list-item-text">21a Olena Teliha Street, Kyiv, 04111</h3>
+        </li>
+
+        <li class="footer-list-item-nd">
+          <p class="footer-list-item-ptext">Working Hours</p>
+          <h3 class="footer-list-item-text">24 hours a day</h3>
+        </li>
+      </ul>
+      <div class="">
+        <a target="_blank" href="https://maps.app.goo.gl/NCpUUdiT89mpp83j9"><img class="footer-img" src="/images/adress-img.png" alt=""></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
